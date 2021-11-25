@@ -1,0 +1,2 @@
+Original site: https://www.quora.com/I-have-learned-HTML-and-CSS-What-are-some-simple-sites-I-can-replicate-for-my-practice
+How to change CSS sheet with JS: https://stackoverflow.com/questions/14292997/changing-style-sheet-javascript

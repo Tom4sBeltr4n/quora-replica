@@ -1,0 +1,7 @@
+#images
+*.png
+*.svg
+*.jpg
+
+#project
+*.txt
