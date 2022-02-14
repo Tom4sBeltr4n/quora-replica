@@ -36,21 +36,21 @@ header
 
 .quora-logo
 {
-  /* posición */
+  /* position */
   position: relative;
   top: -2px;
   left: 2px;
   display:inline-block;
-  /* caja */
+  /* box model */
   width: 91px;
   height: 52px;
   margin-right: 24px;
-  /* tipografía */
-  /* recursos visuales */
+  /* fonts */
+  /* visual effects */
   background-image: url('../assets/quora-logo.png');
   background-size: cover;
   background-repeat: no-repeat;
-  /* otros */
+  /* misc */
 }
 
 .header--main-icon-wrapper
@@ -111,9 +111,9 @@ header>.header--icon
 header>.header--search-bar-container
 {
   display: inline-block;
-  position: relative;/* SEND SEND SEND send this issue to so: why do i have to add position relative, bottom 15px right 3px to every element in the header*/
-  bottom: 18px;
-  right: 30px;
+  position: relative;
+  bottom: 23px;
+  right: 42px;
   height: 36px;
   width: 249px;
 }
@@ -122,16 +122,35 @@ header>.header--search-bar-container
 {
   display: block;
   height: 36px;
-  width: 249px;
+  width: 250px;
   border-width: 1px;
-  padding: 4px 8px;
+  padding: 4px 8px 4px 28px;
   color: rgb(213, 214, 214);
+  border-radius: 3px;
   background-color: var(--black-two);
   border-color: #383938; 
   border-style: solid;
 }
 
-/* EL INPUT TIENE UN INLINE */
+.header--search-bar::placeholder
+{
+  color: rgb(142,144,146);
+}
+
+.search-bar--icon
+{
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 9px;
+  width: 16px;
+  height: 16px;
+  background-image: url('../assets/mgglass.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* remember that input and span default to inline  */
 aside, main
 {
   position: relative;
