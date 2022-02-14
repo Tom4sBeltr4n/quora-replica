@@ -93,27 +93,38 @@ header>.header--icon
 
 .following
 { 
+  position: relative;
+  right:3px;
   background-image: url('../assets/following.svg');
 }
+
 .answer
 {
+  position: relative;
+  right: 6px;
   background-image: url('../assets/answer.svg');
 }
+
 .spaces
 {
+  position: relative;
+  right: 9px;
   background-image: url('../assets/community.svg');
 }
+
 .notifications
 {
+  position: relative;
+  right: 12px;
   background-image: url('../assets/bell.svg');
 }
 
 header>.header--search-bar-container
 {
   display: inline-block;
-  position: relative;/* SEND SEND SEND send this issue to so: why do i have to add position relative, bottom 15px right 3px to every element in the header*/
-  bottom: 18px;
-  right: 30px;
+  position: relative;
+  bottom: 22px;
+  right: 42px;
   height: 36px;
   width: 249px;
 }
@@ -129,6 +140,11 @@ header>.header--search-bar-container
   background-color: var(--black-two);
   border-color: #383938; 
   border-style: solid;
+}
+
+.header--search-bar::placeholder
+{
+  color: rgb(142,144,146);
 }
 
 /* EL INPUT TIENE UN INLINE */
