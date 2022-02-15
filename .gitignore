@@ -349,6 +349,8 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+
+##Here begin personal/repository-related rules
 #images
 *.png
 *.svg
