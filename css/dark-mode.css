@@ -36,21 +36,21 @@ header
 
 .quora-logo
 {
-  /* posición */
+  /* position */
   position: relative;
   top: -2px;
   left: 2px;
   display:inline-block;
-  /* caja */
+  /* box model */
   width: 91px;
   height: 52px;
   margin-right: 24px;
-  /* tipografía */
-  /* recursos visuales */
+  /* fonts */
+  /* visual effects */
   background-image: url('../assets/quora-logo.png');
   background-size: cover;
   background-repeat: no-repeat;
-  /* otros */
+  /* misc */
 }
 
 .header--main-icon-wrapper
@@ -101,7 +101,7 @@ header>.header--icon
 .answer
 {
   position: relative;
-  right: 6px;
+  right:6px;
   background-image: url('../assets/answer.svg');
 }
 
@@ -133,10 +133,11 @@ header>.header--search-bar-container
 {
   display: block;
   height: 36px;
-  width: 249px;
+  width: 250px;
   border-width: 1px;
-  padding: 4px 8px;
+  padding: 4px 8px 4px 28px;
   color: rgb(213, 214, 214);
+  border-radius: 3px;
   background-color: var(--black-two);
   border-color: #383938; 
   border-style: solid;
@@ -147,7 +148,20 @@ header>.header--search-bar-container
   color: rgb(142,144,146);
 }
 
-/* EL INPUT TIENE UN INLINE */
+.search-bar--icon
+{
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 9px;
+  width: 16px;
+  height: 16px;
+  background-image: url('../assets/mgglass.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* remember that input and span default to inline  */
 aside, main
 {
   position: relative;
