@@ -57,8 +57,8 @@ header
 {
   display: inline-block;
   position: relative;
-  /* bottom: 15px;
-  right: 3px; is this really an optimal solution???*/ 
+  bottom: 15px;
+  right: 3px;
   width: 360px;
   height: 50px;
 }
@@ -93,18 +93,29 @@ header>.header--icon
 
 .following
 { 
+  position: relative;
+  right:3px;
   background-image: url('../assets/following.svg');
 }
+
 .answer
 {
+  position: relative;
+  right:6px;
   background-image: url('../assets/answer.svg');
 }
+
 .spaces
 {
+  position: relative;
+  right: 9px;
   background-image: url('../assets/community.svg');
 }
+
 .notifications
 {
+  position: relative;
+  right: 12px;
   background-image: url('../assets/bell.svg');
 }
 
@@ -112,7 +123,7 @@ header>.header--search-bar-container
 {
   display: inline-block;
   position: relative;
-  bottom: 23px;
+  bottom: 22px;
   right: 42px;
   height: 36px;
   width: 249px;
