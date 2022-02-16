@@ -141,7 +141,7 @@ header>.header--search-bar-container
   background-color: var(--black-two);
   border-color: #383938; 
   border-style: solid;
-}
+} 
 
 .header--search-bar::placeholder
 {
@@ -159,6 +159,25 @@ header>.header--search-bar-container
   background-image: url('../assets/mgglass.svg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.header--quora-plus
+{
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 29px;
+  width: 110px;
+  height: 30px;
+  padding: 1px;
+  border: 1px;
+  text-align: center;
+  font-size: 1.3rem;
+  color:rgb(213, 214, 214);
+  border-color: rgb(117, 116, 122);
+  border-style: solid;
+  border-radius: 30px;
+  background-color: #202020;
 }
 
 /* remember that input and span default to inline  */
