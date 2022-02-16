@@ -17,6 +17,7 @@ html
 {
   --black-one: #262626;
   --black-two: #181818;
+  --dark-gray: #383938;
 }
 
 body
@@ -165,18 +166,19 @@ header>.header--search-bar-container
 {
   display: inline-block;
   position: relative;
-  right: 10px;
-  bottom: 29px;
-  width: 110px;
+  right: 28px;
+  bottom: 15px;
+  width: 97px;
   height: 30px;
   padding: 1px;
   border: 1px;
   text-align: center;
+  vertical-align: text-bottom;
   font-size: 1.3rem;
-  color:rgb(213, 214, 214);
-  border-color: rgb(117, 116, 122);
+  color: #b1b3b6;
+  border-color: rgba(177,179,182,0.2);/*r: 56, g:57, g:56*/
   border-style: solid;
-  border-radius: 30px;
+  border-radius: 1000px;
   background-color: #202020;
 }
 
