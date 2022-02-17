@@ -27,24 +27,22 @@ body
 
 header
 {
+  position: absolute;
   display: inline-block;
   width: 100%;
   height: 50px;
-  padding: 0 170px;
+  padding: 0 171px;
   background-color: var(--black-one);
 }
 
 .quora-logo
 {
   /* position */
-  position: relative;
-  top: -2px;
-  left: 2px;
+  position: absolute;
   display:inline-block;
   /* box model */
   width: 91px;
-  height: 52px;
-  margin-right: 24px;
+  height: 50px;
   /* fonts */
   /* visual effects */
   background-image: url('../assets/quora-logo.png');
@@ -56,9 +54,8 @@ header
 .header--main-icon-wrapper
 {
   display: inline-block;
-  position: relative;
-  /* bottom: 15px;
-  right: 3px; is this really an optimal solution???*/ 
+  position: absolute;
+  left: 285px;
   width: 360px;
   height: 50px;
 }
@@ -73,7 +70,7 @@ header
 
 .header--icon
 {
-  display:inline-block;
+  display: inline-block;
   height: 24px;
   width: 24px;
   background-size: cover;
@@ -110,10 +107,10 @@ header>.header--icon
 
 header>.header--search-bar-container
 {
-  display: inline-block;
+  display: none ;
   position: relative;
-  bottom: 23px;
-  right: 42px;
+  /* bottom: 23px;
+  right: 42px; */
   height: 36px;
   width: 249px;
 }
@@ -123,6 +120,7 @@ header>.header--search-bar-container
   display: block;
   height: 36px;
   width: 250px;
+  margin: 7px 0px;
   border-width: 1px;
   padding: 4px 8px 4px 28px;
   color: rgb(213, 214, 214);
