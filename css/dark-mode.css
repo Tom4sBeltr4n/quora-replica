@@ -56,15 +56,17 @@ header
   display: inline-block;
   position: absolute;
   left: 285px;
-  width: 360px;
+  width: 300px;
   height: 50px;
 }
 
 .icon-container
 {
   display: inline-block;
+  position: relative;
+  top: 1px; 
   width: 60px;
-  height: 49px;
+  height: 43px;
   padding: 12px 8px;
 }
 
@@ -77,12 +79,6 @@ header
   width: 24px;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-header>.header--icon
-{
-  position: relative; 
-  margin: 0 0 10px;
 }
 
 .home
@@ -109,23 +105,23 @@ header>.header--icon
 
 header>.header--search-bar-container
 {
-  display: none ;
-  position: relative;
-  /* bottom: 23px;
-  right: 42px; */
-  height: 36px;
+  display: inline-block;
+  position: absolute;
+  left: 609px;
+  height: 50px;
   width: 249px;
 }
 
 .header--search-bar
 {
-  display: block;
+  display: inline-block;
+  position: absolute;
   height: 36px;
   width: 250px;
   margin: 7px 0px;
   border-width: 1px;
   padding: 4px 8px 4px 28px;
-  color: rgb(213, 214, 214);
+  color: #D5D6D6;
   border-radius: 3px;
   background-color: var(--black-two);
   border-color: #383938; 
@@ -134,17 +130,17 @@ header>.header--search-bar-container
 
 .header--search-bar::placeholder
 {
-  color: rgb(142,144,146);
+  color: #8E9092 
 }
 
 .search-bar--icon
 {
   display: inline-block;
   position: absolute;
-  bottom: 10px;
+  top: 17px;
   left: 9px;
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
   background-image: url('../assets/mgglass.svg');
   background-size: cover;
   background-repeat: no-repeat;
