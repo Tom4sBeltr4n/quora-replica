@@ -1,4 +1,5 @@
 Reach development level of main and merge
+Add text (content) to all HTML elements
 Add all plastic customisation
 Adding hover and focus styles
 Adding all modals
