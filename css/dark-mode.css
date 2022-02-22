@@ -82,12 +82,12 @@ header
   background-repeat: no-repeat;
 }
 
-.home
+.home-icon
 {
   background-image: url('../assets/home.svg')
 }
 
-.following
+.following-icon
 { 
   position: relative;
   right:3px;
@@ -101,14 +101,14 @@ header
   background-image: url('../assets/answer.svg');
 }
 
-.spaces
+.spaces-icon
 {
   position: relative;
   right: 9px;
   background-image: url('../assets/community.svg');
 }
 
-.notifications
+.notifications-icon
 {
   position: relative;
   right: 12px;
@@ -171,6 +171,21 @@ header>.header--search-bar-container
   border-style: solid;
   border-color: rgba(177,179,182,0.2);
   background-color: #202020;
+}
+
+.dropdown-icon-container
+{
+  position: absolute;
+  left: 972px;
+  width: 40px;
+  height: 50px;
+  background-color:aqua; /*for testing purposes only  */
+}
+
+header>div:nth-child(6)
+{
+  position: absolute;
+  left: 1012px;
 }
 
 /* remember that input and span default to inline  */
