@@ -1,7 +1,7 @@
-Reach development level of main and merge
 Add text (content) to all HTML elements
 Add all plastic customisation
 Adding hover and focus styles
+Add all dropdowns
 Adding all modals
 Finishing dark theme
 Adding light theme stylesheet
