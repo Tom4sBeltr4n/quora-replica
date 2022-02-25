@@ -176,16 +176,49 @@ header>.header--search-bar-container
 .dropdown-icon-container
 {
   position: absolute;
-  left: 972px;
+  left: 980px;
   width: 40px;
   height: 50px;
-  background-color:aqua; /*for testing purposes only  */
 }
 
 header>div:nth-child(6)
 {
   position: absolute;
-  left: 1012px;
+  left: 1020px;
+  background-color: #00000000;
+}
+
+.dropdown-icon
+{
+  display: block;
+  /* position: absolute; */
+  /* top: 10px; */
+  /* left: 10px; */
+  width: 24px;
+  height: 24px;
+  margin: 13px auto 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1000px;
+}
+
+.user-profile-icon
+{
+  background-image: url('../assets/profpic.jpeg');
+}
+
+.languages-icon
+{
+  background-image: url('../assets/world.svg');
+}
+
+.dropdown-container--language-dropdown, .dropdown-container--user-dropdown
+{
+  position: absolute;
+  top: 50px;
+  width: 243px;
+  height: 512px;
+  overflow: scroll;
 }
 
 /* remember that input and span default to inline  */
