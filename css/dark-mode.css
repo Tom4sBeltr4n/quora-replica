@@ -18,6 +18,7 @@ html
   --black-one: #262626;
   --black-two: #181818;
   --dark-gray: #383938;
+  --border-gray: #B1B3B633;
 }
 
 body
@@ -31,7 +32,7 @@ header
   position: absolute;
   display: inline-block;
   width: 100%;
-  height: 50px;
+  height: 51px;
   padding: 0 171px;
   background-color: var(--black-one);
 }
@@ -169,7 +170,7 @@ header>.header--search-bar-container
   color: #b1b3b6;
   border-radius: 1000px;
   border-style: solid;
-  border-color: rgba(177,179,182,0.2);
+  border-color: var(--border-gray);
   background-color: #202020;
 }
 
@@ -185,7 +186,6 @@ header>div:nth-child(6)
 {
   position: absolute;
   left: 1020px;
-  background-color: #00000000;
 }
 
 .dropdown-icon
@@ -215,10 +215,21 @@ header>div:nth-child(6)
 .dropdown-container--language-dropdown, .dropdown-container--user-dropdown
 {
   position: absolute;
-  top: 50px;
-  width: 243px;
+  top: 58px;
+  right: -111px;
+  width: 262px;
   height: 512px;
-  overflow: scroll;
+  border-width: 1px;
+  background-color: var(--black-one);
+  border-color: var(--border-gray);
+  border-radius: 1%;
+  border-style: solid;
+  overflow-y: scroll;
+}
+
+.dropdown-container--language-dropdown
+{
+  display: none;
 }
 
 /* remember that input and span default to inline  */

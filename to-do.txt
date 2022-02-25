@@ -1,4 +1,4 @@
-Add text (content) to all HTML elements
+Add shadow to the header
 Wrap all ul items in lis
 Add all plastic customisation
 Adding hover and focus styles
@@ -6,4 +6,5 @@ Add all dropdowns
 Adding all modals
 Finishing dark theme
 Adding light theme stylesheet
-Check accesibility
+Check accesibility without changing visuals
+Make a new replica with "more creative freedom" (meeting following condition: same purposes met, different means, same colour palette) 
