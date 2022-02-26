@@ -229,9 +229,17 @@ header>div:nth-child(6)
 
 .dropdown-container--language-dropdown
 {
-  display: none;
-}
+  display: none; 
+}/*translate3d(244px, 0px, 0px): add to make pointy triangle and look at SO for border radius */
 
+.dropdown-container--arrow-up
+{
+  width: 0px;
+  height: 0px;
+  border-width: 0px 7px 7px; 
+  border-color: transparent transparent rgb(38, 38, 38);
+  border-style: solid;
+}
 /* remember that input and span default to inline  */
 aside, main
 {
