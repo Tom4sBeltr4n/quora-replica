@@ -150,8 +150,8 @@ header>.header--search-bar-container
 {
   display: inline-block;
   position: absolute;
-  top: 17px;
-  left: 9px;
+  top: 16px;
+  left: 8px;
   width: 17px;
   height: 17px;
   background-image: url('../assets/mgglass.svg');
@@ -214,9 +214,11 @@ header>div:nth-child(6)
 
 .dropdown-container--language-dropdown, .dropdown-container--user-dropdown
 {
+  display: none;
   position: absolute;
   top: 58px;
   right: -111px;
+  z-index: 3;
   width: 262px;
   height: 512px;
   border-width: 1px;
@@ -227,19 +229,30 @@ header>div:nth-child(6)
   overflow-y: scroll;
 }
 
+.user-profile-icon:hover+.dropdown-container--user-dropdown
+{
+  display: block;
+}
+
 .dropdown-container--language-dropdown
 {
   display: none; 
-}/*translate3d(244px, 0px, 0px): add to make pointy triangle and look at SO for border radius */
+}/*SO page for border radius: https://stackoverflow.com/questions/16676166/apply-border-radius-to-scrollbars-with-css. This comment was not worth a commit*/
 
 .dropdown-container--arrow-up
 {
+  position: absolute;
+  top: -7px;
+  left: 30px;
+  z-index: inherit;
   width: 0px;
   height: 0px;
   border-width: 0px 7px 7px; 
-  border-color: transparent transparent rgb(38, 38, 38);
+  border-color: transparent transparent #FF0000;
+  /* border-color: transparent transparent rgb(38, 38, 38); -- final colours*/ 
   border-style: solid;
 }
+
 /* remember that input and span default to inline  */
 aside, main
 {

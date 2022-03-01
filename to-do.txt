@@ -1,3 +1,4 @@
+Finishing header elements
 Add shadow to the header
 Wrap all ul items in lis
 Add all plastic customisation
