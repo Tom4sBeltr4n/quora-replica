@@ -17,8 +17,9 @@ html
 {
   --black-one: #262626;
   --black-two: #181818;
-  --dark-gray: #383938;
+  /* --border-color: #383938; */
   --border-gray: #B1B3B633;
+  --dark-gray: #383938;
 }
 
 body
@@ -229,15 +230,12 @@ header>div:nth-child(6)
   overflow-y: scroll;
 }
 
-.user-profile-icon:hover+.dropdown-container--user-dropdown
+.user-profile-icon:hover+.dropdown-container--user-dropdown, .languages-icon:hover+.dropdown-container--language-dropdown
 {
   display: block;
 }
 
-.dropdown-container--language-dropdown
-{
-  display: none; 
-}/*SO page for border radius: https://stackoverflow.com/questions/16676166/apply-border-radius-to-scrollbars-with-css. This comment was not worth a commit*/
+/*SO page for border radius: https://stackoverflow.com/questions/16676166/apply-border-radius-to-scrollbars-with-css. This comment was not worth a commit*/
 
 .dropdown-container--arrow-up
 {
@@ -253,7 +251,46 @@ header>div:nth-child(6)
   border-style: solid;
 }
 
-/* remember that input and span default to inline  */
+.user-dropdown--profile-link
+{
+  display: inline-block;
+  position: absolute;
+  width: 243px;
+  height: 112px;
+  padding-left: 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-gray);
+}
+
+.user-dropdown--profile-link--user-icon
+{
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background-image: url('../assets/profpic.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 70%;
+}
+
+.user-dropdown--profile-link--username
+{
+  position: absolute;
+  bottom: 13px;
+  width: 100%;
+  color: #cdcdcd;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.52rem;
+  text-align: left;
+}
+
+/* remember that a, input and span default to inline  */
 aside, main
 {
   position: relative;
