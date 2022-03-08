@@ -195,8 +195,10 @@ header>div:nth-child(6)
   width: 24px;
   height: 24px;
   margin: 13px auto 0;
+  background-color: #00000000;
   background-size: cover;
   background-repeat: no-repeat;
+  border: none;
   border-radius: 1000px;
 }
 

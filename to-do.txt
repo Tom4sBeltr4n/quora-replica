@@ -1,4 +1,4 @@
-Remove button style from header icon pair
+Merge with main
 Finishing header elements
 Add shadow to the header
 Wrap all ul items in lis
