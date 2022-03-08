@@ -226,25 +226,31 @@ header>div:nth-child(6)
   overflow-y: visible; /*temporal*/
 }
 
-.user-profile-icon:hover+.dropdown-container--user-dropdown, .languages-icon:hover+.dropdown-container--language-dropdown
-{
-  display: block;
-}
-
 /*SO page for border radius: https://stackoverflow.com/questions/16676166/apply-border-radius-to-scrollbars-with-css. This comment was not worth a commit*/
 /* a new wrapping element may be needed */
 .dropdown-container--arrow-up
 {
   position: absolute;
   top: -7px;
-  /* left: 120px; */
   left: calc(50% - 7px);
   z-index: inherit;
   width: 0px;
   height: 0px;
   border-width: 0px 7px 7px; 
   border-color: transparent transparent var(--black-one);
-  /* border-color: transparent transparent rgb(38, 38, 38); -- final colours*/ 
+  border-style: solid;
+}
+
+.dropdown-container--arrow-up__border
+{
+  position: absolute;
+  top: -8px;
+  left: calc(50% - 7px);
+  z-index: inherit;
+  width: 0px;
+  height: 0px;
+  border-width: 0px 7px 7px; 
+  border-color: transparent transparent var(--border-gray);
   border-style: solid;
 }
 

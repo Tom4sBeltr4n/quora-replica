@@ -32,26 +32,32 @@
       </div>
       <button class="header--quora-plus">Try Quora+</button>
       <div class="dropdown-icon-container">
-        <span class="dropdown-icon user-profile-icon"></span>
+        <button class="dropdown-icon user-profile-icon"></button>
         <div class="dropdown-container--user-dropdown">
+          <div class="dropdown-container--arrow-up__border"></div>
           <div class="dropdown-container--arrow-up"></div>
-          <a href="https://www.quora.com/profile/El-Gran-Beltr%C3%A1n" class="user-dropdown--profile-link">
-            <span class="user-dropdown--profile-link--user-icon"></span>
-            <p class="user-dropdown--profile-link--username">El Gran Beltrán</p>
-            <span class="user-dropdown--profile-link--arrow"></span>
-          </a>
-          <ul class="user-dropdown--usage-links-tree"></ul>
-          <ul class="user-dropdown--general-links-tree"></ul>
-          <ul class="user-dropdown--site-links-tree"></ul>
+          <div class="dropdown-container--user-wrapper">
+            <a href="https://www.quora.com/profile/El-Gran-Beltr%C3%A1n" class="user-dropdown--profile-link">
+              <span class="user-dropdown--profile-link--user-icon"></span>
+              <p class="user-dropdown--profile-link--username">El Gran Beltrán</p>
+              <span class="user-dropdown--profile-link--arrow"></span>
+            </a>
+            <ul class="user-dropdown--usage-links-tree"></ul>
+            <ul class="user-dropdown--general-links-tree"></ul>
+            <ul class="user-dropdown--site-links-tree"></ul>
+          </div>
         </div>
       </div>
       <div class="dropdown-icon-container">
-        <span class="dropdown-icon languages-icon"></span>
+        <button class="dropdown-icon languages-icon"></button>
         <div class="dropdown-container--language-dropdown">
+          <div class="dropdown-container--arrow-up__border"></div>
           <div class="dropdown-container--arrow-up"></div>
-          <p class="language-dropdown--header"></p>
-          <ul class="language-dropdown--language-list"></ul>
-          <ul class="language-dropdown--other-languages"></ul>
+          <div class="dropdown-container--language-wrapper">
+            <p class="language-dropdown--header"></p>
+            <ul class="language-dropdown--language-list"></ul>
+            <ul class="language-dropdown--other-languages"></ul>
+          </div>
         </div>
       </div>
       <div class="header--new-question">Add question</div>
@@ -282,5 +288,6 @@
         </li>
       </ul>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
