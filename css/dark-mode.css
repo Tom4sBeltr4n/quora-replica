@@ -338,6 +338,21 @@ Hover: rgb(244, 22, 36)
   border-top-right-radius: 25px;
 }
 
+.create-post--down-arrow
+{
+  display: inline-block;
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  width: 22px;
+  height: 22px;
+  background-image: url('../assets/expand.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+
 /* remember that a, input and span default to inline  */
 aside, main
 {
