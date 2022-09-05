@@ -34,18 +34,20 @@ header
   display: inline-block;
   width: 100%;
   height: 51px;
-  padding: 0 171px;
+  padding: 0 147px;
   background-color: var(--black-one);
 }
 
 .quora-logo
 {
   /* position */
-  position: absolute;
   display:inline-block;
+  position: absolute;
+  left: 144px;
+  bottom: 1px;
   /* box model */
-  width: 91px;
-  height: 50px;
+  width: 93px;
+  height: 51px;
   /* fonts */
   /* visual effects */
   background-image: url('../assets/quora-logo.png');
@@ -58,7 +60,7 @@ header
 {
   display: inline-block;
   position: absolute;
-  left: 285px;
+  left: 259px;
   width: 300px;
   height: 50px;
 }
@@ -121,9 +123,9 @@ header>.header--search-bar-container
 {
   display: inline-block;
   position: absolute;
-  left: 609px;
+  left: 559px;
   height: 50px;
-  width: 316px;
+  width: 349px;
 }
 
 .header--search-bar
@@ -131,7 +133,7 @@ header>.header--search-bar-container
   display: inline-block;
   position: absolute;
   height: 36px;
-  width: 217px;
+  width: 310px;
   margin: 7px 0px;
   border-width: 1px;
   padding: 4px 8px 4px 28px;
@@ -163,7 +165,7 @@ header>.header--search-bar-container
 .header--quora-plus
 {
   position: absolute;
-  left: 842px;
+  left: 885px;
   top: 10px;
   height: 30px;
   width: 97px;
@@ -178,7 +180,7 @@ header>.header--search-bar-container
 .dropdown-icon-container
 {
   position: absolute;
-  left: 947px;
+  left: 990px;
   width: 40px;
   height: 50px;
 }
@@ -186,7 +188,7 @@ header>.header--search-bar-container
 header>div:nth-child(6)
 {
   position: absolute;
-  left: 985px;
+  left: 1028px;
 }
 
 .dropdown-icon
@@ -293,6 +295,47 @@ header>div:nth-child(6)
   font-weight: 700;
   line-height: 2.52rem;
   text-align: left;
+}
+
+/* space left for dropdown */
+.header--new-question
+{
+  display: inline;
+  position: absolute;
+  left: 1078px;
+  top: 10px;
+  height: 30px;
+  width: 103px;
+  padding-top: 1px;
+  padding-left: 7px;
+  padding-bottom: 0px;
+  padding-right: 3px;
+  color: #FFF;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #F52936; 
+  border-width: 0px 2px 0px 0px;
+  border-color: #F4111f; 
+  border-style:solid;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+/* rgb(241,41,54)
+Hover: rgb(244, 22, 36)
+      #F12936 */
+
+.header--create-post
+{
+  display: inline;
+  position: absolute;
+  left: 1181px;
+  top: 10px;
+  height: 30px;
+  width: 38px;
+  background-color: #F52936;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 /* remember that a, input and span default to inline  */
