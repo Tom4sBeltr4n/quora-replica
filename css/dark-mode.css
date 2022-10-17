@@ -36,6 +36,7 @@ header
   height: 51px;
   padding: 0 147px;
   background-color: var(--black-one);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15)
 }
 
 .quora-logo
@@ -174,7 +175,7 @@ header>.header--search-bar-container
   border-radius: 1000px;
   border-style: solid;
   border-color: var(--border-gray);
-  background-color: #202020;
+  background-color: var(--black-one)/*hover: 2F2F2F*/
 }
 
 .dropdown-icon-container
